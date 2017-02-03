@@ -32,9 +32,12 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson02Runner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="app\utils\convertors\PrimitiveConvertor.cs" />
+    <Compile Include="app\utils\runners\Lesson02Runner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\utils\runners\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

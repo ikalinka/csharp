@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{02466C6B-2A60-43AE-AA6B-D09C004C9A8C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lesson02Runner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="app/utils/runners/Lesson02Runner.cs">
     <Files>
-      <File FileName="app/utils/convertors/PrimitiveConvertor.cs" Line="18" Column="38" />
-      <File FileName="Lesson02Runner.cs" Line="1" Column="1" />
+      <File FileName="app/utils/convertors/PrimitiveConvertor.cs" Line="10" Column="30" />
+      <File FileName="app/utils/runners/Lesson02Runner.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.csharpcore PreferredExecutionTarget="MonoDevelop.Default" />
