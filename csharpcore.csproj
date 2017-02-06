@@ -30,14 +30,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>packages\NUnit.3.6.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="app\utils\convertors\PrimitiveConvertor.cs" />
     <Compile Include="app\utils\runners\Lesson02Runner.cs" />
+    <Compile Include="tests\MathFunc.cs" />
+    <Compile Include="tests\MathFuncTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\utils\runners\" />
+    <Folder Include="tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

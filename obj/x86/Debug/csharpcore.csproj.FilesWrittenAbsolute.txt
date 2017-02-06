@@ -3,3 +3,4 @@
 /Users/igorkalinka/Projects/csharpcore/bin/Debug/csharpcore.exe
 /Users/igorkalinka/Projects/csharpcore/obj/x86/Debug/csharpcore.exe
 /Users/igorkalinka/Projects/csharpcore/obj/x86/Debug/csharpcore.exe.mdb
+/Users/igorkalinka/Projects/csharpcore/bin/Debug/nunit.framework.dll
