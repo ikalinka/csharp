@@ -80,5 +80,23 @@ namespace csharpcore
 			Assert.AreEqual(10, mathFunc1.Substraction(b, e));
 		}
 
+		[Test]
+		public void PoweringTest()
+		{
+			int a = 1;
+			int b = 2;
+			int c = 3;
+			int d = 5;
+			int e = 10;
+			int f = 5;
+
+			Assert.AreEqual(1, mathFunc1.Powering(a, b));
+			Assert.AreEqual(25, mathFunc1.Powering(f, b));
+			Assert.AreEqual(243, mathFunc1.Powering(c, d));
+			Assert.AreEqual(100000, mathFunc1.Powering(e, d));
+			Assert.AreEqual(59049, mathFunc1.Powering(c, e));
+			Assert.AreEqual(9765625, mathFunc1.Powering(f, e));
+		}
+
 	}
 }
