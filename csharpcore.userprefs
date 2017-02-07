@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{02466C6B-2A60-43AE-AA6B-D09C004C9A8C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="tests/MathFuncTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tests/MathFunc.cs">
     <Files>
       <File FileName="app/utils/convertors/PrimitiveConvertor.cs" Line="9" Column="4" />
-      <File FileName="app/utils/runners/Lesson02Runner.cs" Line="1" Column="1" />
-      <File FileName="tests/MathFunc.cs" Line="8" Column="13" />
-      <File FileName="tests/MathFuncTests.cs" Line="9" Column="6" />
+      <File FileName="app/utils/runners/Lesson02Runner.cs" Line="9" Column="26" />
+      <File FileName="tests/MathFunc.cs" Line="29" Column="18" />
+      <File FileName="tests/MathFuncTests.cs" Line="117" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.csharpcore PreferredExecutionTarget="MonoDevelop.Default" />

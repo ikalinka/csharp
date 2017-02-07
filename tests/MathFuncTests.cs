@@ -98,5 +98,53 @@ namespace csharpcore
 			Assert.AreEqual(9765625, mathFunc1.Powering(f, e));
 		}
 
+		[Test]
+		public void AbsoluteTest()
+		{
+			int a = 1;
+			int b = -2;
+			int c = 3;
+			int d = -5;
+			int e = 10;
+			int f = 5;
+			Assert.AreEqual(1, mathFunc1.Absolute(a, b));
+			Assert.AreEqual(3, mathFunc1.Absolute(f, b));
+			Assert.AreEqual(2, mathFunc1.Absolute(c, d));
+			Assert.AreEqual(0, mathFunc1.Absolute(f, d));
+			Assert.AreEqual(13, mathFunc1.Absolute(c, e));
+		}
+
+		[Test]
+		public void ReturnMax()
+		{
+			int a = 1;
+			int b = -2;
+			int c = 3;
+			int d = -5;
+			int e = 0;
+			int f = 5;
+			Assert.AreEqual(a, mathFunc1.ReturnMax(a, b));
+			Assert.AreEqual(f, mathFunc1.ReturnMax(f, b));
+			Assert.AreEqual(c, mathFunc1.ReturnMax(c, d));
+			Assert.AreEqual(f, mathFunc1.ReturnMax(f, d));
+			Assert.AreEqual(c, mathFunc1.ReturnMax(c, e));
+		}
+
+		[Test]
+		public void ReturnMin()
+		{
+			int a = 1;
+			int b = -2;
+			int c = 3;
+			int d = -5;
+			int e = 0;
+			int f = 5;
+			Assert.AreEqual(b, mathFunc1.ReturnMin(a, b));
+			Assert.AreEqual(b, mathFunc1.ReturnMin(f, b));
+			Assert.AreEqual(d, mathFunc1.ReturnMin(c, d));
+			Assert.AreEqual(d, mathFunc1.ReturnMin(f, d));
+			Assert.AreEqual(e, mathFunc1.ReturnMin(c, e));
+		}
+
 	}
 }
