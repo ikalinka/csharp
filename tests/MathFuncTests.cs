@@ -115,7 +115,7 @@ namespace csharpcore
 		}
 
 		[Test]
-		public void ReturnMax()
+		public void ReturnMaxTest()
 		{
 			int a = 1;
 			int b = -2;
@@ -131,7 +131,7 @@ namespace csharpcore
 		}
 
 		[Test]
-		public void ReturnMin()
+		public void ReturnMinTest()
 		{
 			int a = 1;
 			int b = -2;
@@ -146,5 +146,20 @@ namespace csharpcore
 			Assert.AreEqual(e, mathFunc1.ReturnMin(c, e));
 		}
 
+		[Test]
+		public void ReturnAverageTest()
+		{
+			int a = 1;
+			int b = -2;
+			int c = 3;
+			int d = -5;
+			int e = 0;
+			int f = 5;
+			Assert.AreEqual(-0.5f, mathFunc1.ReturnAverage(a, b));
+			Assert.AreEqual(1.5, mathFunc1.ReturnAverage(f, b));
+			Assert.AreEqual(-1, mathFunc1.ReturnAverage(c, d));
+			Assert.AreEqual(0, mathFunc1.ReturnAverage(f, d));
+			Assert.AreEqual(1.5, mathFunc1.ReturnAverage(c, e));
+		}
 	}
 }

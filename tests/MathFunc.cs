@@ -61,5 +61,13 @@ namespace csharpcore
 			}
 			return b;
 		}
+
+		public float ReturnAverage(float a, float b)
+		{
+			float result = 0.0f;
+
+			result = (a + b) / 2;
+			return result;
+		}
 	}
 }
