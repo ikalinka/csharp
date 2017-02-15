@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 
 namespace csharpcore
 {
@@ -12,6 +12,10 @@ namespace csharpcore
 			convertIntToChar.intToChar(122);
 			PrimitiveConvertor convertCharToInt = new PrimitiveConvertor();
 			convertCharToInt.charToInt('%');
+			CirleRadius.Calculate();
+			CircleArea.CalculateBigger();
+			TriangleChecker.RightTriangleChecker();
+			OddOrEven.CheckOddOrEven();
 		}
 	}
-}
+}*/

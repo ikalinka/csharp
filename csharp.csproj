@@ -40,10 +40,17 @@
     <Compile Include="app\utils\runners\Lesson02Runner.cs" />
     <Compile Include="tests\MathFunc.cs" />
     <Compile Include="tests\MathFuncTests.cs" />
+    <Compile Include="app\utils\runners\CircleRadius.cs" />
+    <Compile Include="app\utils\runners\CircleArea.cs" />
+    <Compile Include="app\utils\runners\TriangleChecker.cs" />
+    <Compile Include="app\utils\runners\OddOrEven.cs" />
+    <Compile Include="app\utils\runners\homework\Lesson04Runner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\utils\runners\" />
     <Folder Include="tests\" />
+    <Folder Include="classworks\" />
+    <Folder Include="app\utils\runners\homework\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
